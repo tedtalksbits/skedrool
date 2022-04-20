@@ -1,0 +1,52 @@
+{"schedule" :
+     [
+          {
+          "days": ["sunday", "monday"],
+          "title": "MTH 129",
+          "classroom": "online",
+          "desc": "Describe the course, learning outline.",
+          "section": "24440",
+          "professor": "Professor Name",
+          "professorEmail": "email@school.com",
+          "time": "1pm-2:30pm",
+          "link": "http://schoolblackboardwebsite.com",
+          "bgColor": "blue"
+          },
+          {
+          "days": ["wednesday", "friday"],
+          "title": "STS 115",
+          "classroom": "online",
+          "desc": "Describe the course, learning outline.",
+          "section": "",
+          "professor": "Professor Name",
+          "professorEmail": "email@school.com",
+          "time": "1pm-2:30pm",
+          "link": "http://schoolblackboardwebsite.com",
+          "bgColor": "green"
+          },
+          {
+          "days": ["tuesday", "thursday"],
+          "title": "CSC 211",
+          "classroom": "Whitman Hall B19",
+          "desc": "Describe the course, learning outline.",
+          "section": "",
+          "professor": "Professor Name",
+          "professorEmail": "email@school.com",
+          "time": "1:40pm-2:55pm",
+          "link": "http://schoolblackboardwebsite.com",
+          "bgColor": "purple"
+          },
+          {
+          "days": ["saturday"],
+          "title": "BCS 300",
+          "classroom": "Whitman Hall 111",
+          "desc": "Describe the course, learning outline.",
+          "section": "",
+          "professor": "Professor Name",
+          "professorEmail": "email@school.com",
+          "time": "9am-12:25pm",
+          "link": "http://schoolblackboardwebsite.com",
+          "bgColor": "orange"
+          }
+     ]
+}

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap"
+         rel="stylesheet"
+      />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      />
+      <link
+         rel="stylesheet"
+         href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      />
+      <link rel="stylesheet" href="style.css" />
+      <title>Skedrool</title>
+   </head>
+   <body>
+      <header>
+         <a class="logo-container" href="index.html">
+            <svg
+               xmlns="http://www.w3.org/2000/svg"
+               xmlns:xlink="http://www.w3.org/1999/xlink"
+               viewBox="0 0 1024 1024"
+            >
+               <path
+                  d="M928 224H768v-56c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v56H548v-56c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v56H328v-56c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v56H96c-17.7 0-32 14.3-32 32v576c0 17.7 14.3 32 32 32h832c17.7 0 32-14.3 32-32V256c0-17.7-14.3-32-32-32zM424 688c0 4.4-3.6 8-8 8H232c-4.4 0-8-3.6-8-8v-48c0-4.4 3.6-8 8-8h184c4.4 0 8 3.6 8 8v48zm0-136c0 4.4-3.6 8-8 8H232c-4.4 0-8-3.6-8-8v-48c0-4.4 3.6-8 8-8h184c4.4 0 8 3.6 8 8v48zm374.5-91.3l-165 228.7a15.9 15.9 0 0 1-25.8 0L493.5 531.2c-3.8-5.3 0-12.7 6.5-12.7h54.9c5.1 0 9.9 2.5 12.9 6.6l52.8 73.1l103.7-143.7c3-4.2 7.8-6.6 12.9-6.6H792c6.5.1 10.3 7.5 6.5 12.8z"
+                  fill="currentColor"
+               ></path>
+            </svg>
+            <h1 id="logo">skedrool.</h1>
+         </a>
+         <div class="user">
+            <h3 id="username">Tedane Blake</h3>
+            <img
+               id="user-img"
+               src="https://tedtalksbits.github.io/tedaneblakedev/static/media/floatingmancompressed.de699a93.png"
+               alt="avatar"
+            />
+            <input type="checkbox" name="menuToggle" id="drop-down-toggle" />
+            <div class="drop-down">
+               <p>Menu</p>
+               <hr />
+               <form>
+                  <a class="blue">
+                     Upload a json file <i class="fas fa-upload"></i>
+                     <input
+                        class="drop-down-file-upload"
+                        type="file"
+                        name="fileInput"
+                        id="fileInput"
+                        accept=".json"
+                     />
+                  </a>
+                  <input type="submit" value="" hidden />
+               </form>
+               <a class="purple" href="edit.html"
+                  >Edit Schedule <i class="fas fa-edit"></i>
+               </a>
+               <a
+                  class="orange"
+                  href="./schedule.json"
+                  download="./schedule.json"
+               >
+                  Download Sample Schedule
+                  <i class="fas fa-download"></i>
+               </a>
+            </div>
+         </div>
+      </header>
+
+      <main class="wrapper">
+         <div class="datetime" id="datetime">
+            <div class="more-info">
+               <p>Hello Tedane,</p>
+               <p>
+                  <i class="fa fa-bell" aria-hidden="true"></i> You have 1 class
+                  today
+               </p>
+               <hr />
+               <section class="app-drawer">
+                  <ul class="apps">
+                     <li>
+                        <a
+                           title="ClearTasks"
+                           href="https://tedtalksbits.github.io/cleartasks/#/cleartasks"
+                           ><i class="fa fa-tasks" aria-hidden="true"></i
+                        ></a>
+                        <small>ClearTasks</small>
+                     </li>
+                     <li>
+                        <a title="Github" href="https://github.com/tedtalksbits"
+                           ><i class="fa fa-github" aria-hidden="true"></i
+                        ></a>
+                        <small>github</small>
+                     </li>
+                     <li>
+                        <a title="reddit" href="https://reddit.com"
+                           ><i class="fa fa-reddit" aria-hidden="true"></i
+                        ></a>
+                        <small>Reddit</small>
+                     </li>
+                     <li>
+                        <a title="twitter" href="https://twitter.com/iam_tcb"
+                           ><i class="fa fa-twitter" aria-hidden="true"></i
+                        ></a>
+                        <small>Twitter</small>
+                     </li>
+                     <li>
+                        <a href="https://twitch.com/tedtalks_2"
+                           ><i class="fa fa-twitch" aria-hidden="true"></i
+                        ></a>
+                        <small>Twitch</small>
+                     </li>
+                     <li>
+                        <a href="https://linkedin.com/in/tedaneblake"
+                           ><i class="fa fa-linkedin" aria-hidden="true"></i
+                        ></a>
+                        <small>LinkedIn</small>
+                     </li>
+                  </ul>
+               </section>
+            </div>
+            <div class="container">
+               <span><i class="fa fa-calendar-o" aria-hidden="true"></i></span>
+               <span id="date"></span>
+               |
+               <span><i class="fa fa-clock-o" aria-hidden="true"></i></span>
+               <span id="time"></span>
+            </div>
+         </div>
+         <section class="days">
+            <div class="day" id="sunday">
+               <h2>Sunday</h2>
+            </div>
+            <div class="day" id="monday">
+               <h2>Monday</h2>
+            </div>
+            <div class="day" id="tuesday">
+               <h2>Tuesday</h2>
+            </div>
+            <div class="day" id="wednesday">
+               <h2>Wednesday</h2>
+            </div>
+            <div class="day" id="thursday">
+               <h2>Thursday</h2>
+            </div>
+            <div class="day" id="friday">
+               <h2>Friday</h2>
+            </div>
+            <div class="day" id="saturday">
+               <h2>Saturday</h2>
+            </div>
+         </section>
+      </main>
+      <script src="app.js"></script>
+   </body>
+</html>
